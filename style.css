@@ -554,11 +554,17 @@
     list-style-type: none;
 }
 .footer-link-sub > ul > li > a {
+    padding: 0 10px;
     text-decoration: none;
     color: rgb(255, 255, 255);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 .footer-link-sub > ul > li > a:hover {
-    background: linear-gradient(to left, rgb(191, 52, 52), #743838, #b07979) right;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     background-size: 200%, 100%, 50%;
     transition: 3s;
     -webkit-transition: 3s;
